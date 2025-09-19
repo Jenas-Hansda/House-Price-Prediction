@@ -2,10 +2,10 @@ import streamlit as st
 import pickle
 
 # Load the model (make sure the file exists in your working directory)
-with open("house_price_model2.pkl", "rb") as f:
+with open("house_price_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-st.title("House Price Predictor2")
+st.title("House Price Predictor")
 
 # Input fields with default values and minimum values to avoid invalid input
 area = st.number_input("Area (sq ft)", min_value=0, value=1000)
