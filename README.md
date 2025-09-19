@@ -22,6 +22,8 @@ A simple Streamlit web app that predicts house prices based on user input featur
 - Streamlit
 - scikit-learn (or other ML library used for the model)
 - pandas (if needed for your preprocessing)
+- joblib
+
 
 ---
 
